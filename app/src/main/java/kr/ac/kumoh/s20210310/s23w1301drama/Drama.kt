@@ -5,5 +5,5 @@ data class Drama(
     val title: String,
     val genre: String,
     val release_year: Int,
-    val description: String
+    val description: String?
 )
